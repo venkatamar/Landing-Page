@@ -45,12 +45,9 @@
     padding: 50px;
    margin: 10px;
    margin-left:50px ;
+   display: flex;
 }
 
-
-.imgholder{
-    display: flex;
-}
 .section-two{
 
     display: flex;
@@ -81,5 +78,38 @@
     text-align: center;
 }
 .info{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 30px;
+}
+
+.nothing{
+    padding-top: 100px;
+}
+.by{
+    display: flex;
+    text-align: right;
+    font-weight: bolder;
+    font-size: 20px;
+    justify-content: flex-end;
+    align-items: self-end;
+}
+.sentence{
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: light italic;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+}
+.quote{
+    display: flex;
+    justify-content: center;
+    padding: 90px;
+    background-color: #E5E7EB;
     text-align: center;
 }

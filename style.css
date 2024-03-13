@@ -11,11 +11,10 @@
 }
 .header ul,.para1{
     display: flex;
-    /* margin: 0;
-    padding: 0; */
     gap: 30px;
     font-size: 18px;
     color: #E5E7EB;
+    
 }
 .header-logo{
     font-size: 24px;
@@ -28,7 +27,6 @@
 }
 .butt{
     background-color: #3882F6;
-  border: none;
   color: white;
   padding: 2%;
   text-align: center;
@@ -40,9 +38,11 @@
 }
 .imgholder{
     height: 100px;
-    width: 200px;
+    width: 400px;
     background-color: #E5E7EB;
     padding: 50px;
+    align-items: center;
+    justify-content: center;
    margin: 10px;
    margin-left:50px ;
    display: flex;
@@ -56,6 +56,7 @@
     justify-content: center;
     align-items: center;
     padding-top:50px ;
+    
 }
 .three{
     width: 500px; ;
@@ -83,6 +84,7 @@
     font-weight: bolder;
     color: #1F2937;
     padding: 30px;
+    
 }
 
 .nothing{
@@ -112,4 +114,42 @@
     padding: 90px;
     background-color: #E5E7EB;
     text-align: center;
+}
+
+.foot{
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin:100px ;
+    margin-left:260px ;
+    background-color: #3882F6;
+    padding: 40px;
+    width:800px;
+}
+.section-four{
+    display:flex;
+    background-color: white;
+}
+.buttone{
+    border-radius: 8px;
+    border-color: white;
+    margin-left: 40px;
+}
+.heading{
+    font-size: 30px;
+    color: white;
+}
+.para2{
+    font-size: 20px;
+    color: #E5E7EB;
+}
+.copyright{
+    justify-content: center;
+    display:flex;
+    border:150px;
+    height: 100px;
+    align-items: center;
+    background-color: #1F2937;
+    color:#E5E7EB
 }
